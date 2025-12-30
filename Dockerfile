@@ -1,4 +1,4 @@
-FROM tomcat:9.0.113-jdk8-corretto
+FROM tomcat:9.0.113-jdk8
 
 # 安装开发调试工具集
 RUN yum update -y && \
